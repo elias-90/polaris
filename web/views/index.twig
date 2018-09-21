@@ -3,9 +3,16 @@
 {% block content %}
 <div class="jumbotron text-center">
   <div class="container">
-    <!---------->
+    <!-- ------ -->
     <script src="http://alpunto-devless.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="e1edf6668d66e0dcdf9e96b493b53f12"  ></script>
-    <!---------->
+    <div class="dv-notify-success" style="color: green">Person added</div>
+<div class="dv-notify-failed" style="color: red">Failed to add person</div>
+<form class="dv-add-oneto:contacts:people">
+    <input type="text" name="name" placeholder="Name"><br>
+    <input type="text" name="email" placeholder="Email"><br>
+    <button type="submit">Submit</button>
+</form>
+    <!-- ------ -->
   </div>
 </div>
 <div class="container">
